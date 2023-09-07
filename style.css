@@ -141,7 +141,7 @@ section {
 .page2-heading1 {
     justify-content: center;
     text-align: center;
-    color: #ff8c42;
+    color: #fa3;
     font-style: italic;
     font-weight: 700;
     letter-spacing: 0.10rem;
@@ -201,24 +201,26 @@ section {
 .Experience img {
     height: 30px;
     width: 30px;
+    margin-top: 10px;
 }
 
 .heading {
     font-weight: bold;
     font-style: italic;
+    margin-top: 10px;
 }
 
 .Experience ul {
     list-style-type: disc;
+    margin-top: 10px;
 }
 .Experience div{
    margin: 10px;
 }
 #page3 {
     height: 700px;
-    width: 1325px;
-    background-color: white;
-    /*outline*/
+    /*width: 1325px;*/
+    /*background-color: white;*/
 }
 #page3 h1 {
     font-style: oblique;
@@ -228,18 +230,19 @@ section {
 }
 .skills h2 {
     font-weight: 400;
+
 }
 .row1 {
     display: flex;
     justify-content: center;
 }
 .row1 div {
-    text-align: center;
+    /*text-align: center;*/
     width: 150px;
     height: 100px;
     padding: 15px;
     background-color: #fa3;
-    border-radius: 20%;
+    border-radius: 2rem;
 }
 .row1 div:hover{
     background-color: black;
@@ -250,7 +253,8 @@ section {
     transition: all 1.5s;
 }
 .skills {
-    background-color: white;
+    /*NOT WORKING*/
+    background-color: black;
     width: 1000px;
     padding: 15px;
     text-align: center;
@@ -260,7 +264,6 @@ section {
 .r1d {
     padding: 20px;
     margin: 40px;
-    outline: auto;
 }
 #page3 {
     text-align: center;
@@ -270,13 +273,17 @@ section {
     height: 50px;
     width: 50px;
 }
-
+#Acheivements {
+    height: 1300px;
+    display: flex;
+    justify-content: center;
+}
 .achBlock {
     outline: auto #cccccc;
     height: 1200px;
     width: 1000px;
     padding: 50px;
-    margin-left: 120px;
+    /*margin-left: 120px;*/
 }
 .achBlock p {
     text-align: center;
@@ -292,7 +299,7 @@ section {
 
 .p4r1 {
   background-color: #386280;
-  border-radius: 10%;
+  border-radius: 2rem;
   height: 522px;
   width: 350px;
   margin: auto;
@@ -306,9 +313,10 @@ section {
     width: 30px;
 }
 .achrow1 img {
+    display: flex;
     height: 250px;
     width: 200px;
-    border-radius: 12%;
+    border-radius: 2rem;
     outline: auto #fa3;
     background-color: #fa3;
     padding: 50px;
@@ -329,14 +337,18 @@ section {
     text-decoration: underline;
     
 }
-#secondlast {
+/*#secondlast {
     height: 50vh;
+}*/
+#Contact {
+    height: 60vh;
 }
 .Last {
-    height: 100vh;
+    height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
 }
 
 .contact {
@@ -346,7 +358,7 @@ section {
 }
 .Last p {
     color: #848884;
-    margin-bottom: 10px;
+    margin-top: 10px;
 }
 .Last h1 {
     font-size: xx-large;
@@ -379,4 +391,5 @@ section {
 .footer {
     color: #808080;
     text-align: center;
+    height: 50px;
 }
