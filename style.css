@@ -1,0 +1,382 @@
+/* csfkfiu */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;0,500;1,400&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300;1,400&family=Raleway:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;0,500;1,400&family=Raleway:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    /*font-family:'Raleway', sans-serif;*/
+}
+
+ul {
+    list-style-type: none;
+}
+* {
+   margin: 0;
+   padding: 0;
+}
+#nav {
+    position: sticky;
+    top: 0;
+}
+.nav-links {
+    display: flex;
+}
+
+.nav-links {
+    gap: 2rem;
+    font-size: medium;
+    justify-content: center;
+    align-items: last baseline;    
+    height: 15vh;
+    background-color: #386280;
+}
+/*.nav-links a:hover {
+    font-size: large;
+    transition: 1s;
+}*/
+li {
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    font-weight: 500;
+}
+a:hover {
+    color: black;
+    transition: 1s;
+    font-size: x-large;
+    /*text-decoration: underline;
+    text-underline-offset: 0.25rem;*/
+}
+
+.image img {
+
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+}
+.image img:hover {
+    height: 500px;
+    width: 500px;
+    outline: auto;
+    transition:  1.5s ;
+
+}
+
+#img-name {
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    gap: 2rem ;
+}
+.image {
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    padding: 10vh;
+    height: 85vh;
+}
+.name {
+    align-self: center;
+    text-align: center;
+
+}
+.name p {
+    font-weight: 600;
+}
+.p1 {
+    text-align: center;
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.title {
+    color: #ff8c42 ;
+    font-size: 3rem;
+    text-align: center;
+}
+.p2 {
+   color: #386280;  
+   font-style: italic;
+   margin-bottom: 0.75rem ; 
+   font-size: large; 
+}
+
+#img-name button {
+    padding: 0.75rem;
+    background-color: #848884;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-width: solid , 20px ;
+    border-radius: 30px;
+    margin: 5px;
+    font-size: 0.85rem ;
+    font-weight: 600;
+}
+.ButtonDiv {
+    padding: 10px;
+}
+#img-name button:hover {
+    transition: 0.75s;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 1rem;
+}
+.page2 {
+    background-color: #ff8c42;
+    background-image: url("./assets/wall2.jpg");
+}
+.page2-heading1 {
+    justify-content: center;
+    text-align: center;
+    color: #ff8c42;
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: 0.10rem;
+    
+}
+.eduAndexp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+.p2h {
+    text-align: center;
+}
+.education {
+    background-color: #e5e4e2;
+    font-weight: 300;
+    padding: 20px;
+    height: 400px;
+    width: 400px;
+    margin-right: 10px;
+}
+
+.Experience{
+    background-color: #386280;
+    font-weight: 300;
+    padding: 20px;
+    color: white;
+    height: 400px;
+    width: 400px;
+    margin-left: 10px;
+}
+.course {
+    font-style: italic;
+    font-weight: bold ;
+}
+.score {
+    font-style: italic;
+    font-size: small;
+    color: #848884;
+    font-weight: bold;
+}
+
+
+.education div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem ;
+    margin-top: 1.5rem;
+}
+
+.education img {
+    height: 20px;
+    width: 20px;
+}
+
+.Experience img {
+    height: 30px;
+    width: 30px;
+}
+
+.heading {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.Experience ul {
+    list-style-type: disc;
+}
+.Experience div{
+   margin: 10px;
+}
+#page3 {
+    height: 700px;
+    width: 1325px;
+    background-color: white;
+    /*outline*/
+}
+#page3 h1 {
+    font-style: oblique;
+    font-weight: bolder;
+    margin-bottom: 40px;
+    color: #386280;
+}
+.skills h2 {
+    font-weight: 400;
+}
+.row1 {
+    display: flex;
+    justify-content: center;
+}
+.row1 div {
+    text-align: center;
+    width: 150px;
+    height: 100px;
+    padding: 15px;
+    background-color: #fa3;
+    border-radius: 20%;
+}
+.row1 div:hover{
+    background-color: black;
+    color: white;
+    height: 120px;
+    width: 170px;
+    padding: 30px;
+    transition: all 1.5s;
+}
+.skills {
+    background-color: white;
+    width: 1000px;
+    padding: 15px;
+    text-align: center;
+    display: contents;
+    justify-content: center;
+}
+.r1d {
+    padding: 20px;
+    margin: 40px;
+    outline: auto;
+}
+#page3 {
+    text-align: center;
+}
+
+#page3 img {
+    height: 50px;
+    width: 50px;
+}
+
+.achBlock {
+    outline: auto #cccccc;
+    height: 1200px;
+    width: 1000px;
+    padding: 50px;
+    margin-left: 120px;
+}
+.achBlock p {
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.achrow1 {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.p4r1 {
+  background-color: #386280;
+  border-radius: 10%;
+  height: 522px;
+  width: 350px;
+  margin: auto;
+  outline: auto;
+}
+.p4r1:hover {
+    background-color: black;
+}
+.achimg img {
+    height: 30px;
+    width: 30px;
+}
+.achrow1 img {
+    height: 250px;
+    width: 200px;
+    border-radius: 12%;
+    outline: auto #fa3;
+    background-color: #fa3;
+    padding: 50px;
+}
+.achrow1 img:hover {
+    height: 300px;
+    width: 250px;
+    transition: all 1s;
+} 
+.achrow1 p {
+    color: white;
+    font-size: medium;
+    padding: 10px;
+}
+.achBlock a {
+    color: #848884;
+    font-size: medium;
+    text-decoration: underline;
+    
+}
+#secondlast {
+    height: 50vh;
+}
+.Last {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact {
+    height: 300px;
+    width: 500px;
+    text-align: center;
+}
+.Last p {
+    color: #848884;
+    margin-bottom: 10px;
+}
+.Last h1 {
+    font-size: xx-large;
+    font-weight: 500;
+    margin-bottom: 10px;
+      
+}
+.contactDet {
+    outline: auto #848884;
+    border-radius: 2rem;
+    height: 70px;
+    width: 350px;
+    margin-left:  80px;
+    display: flex;
+    justify-content: center;
+}
+.email {
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+    
+}
+.linkedIn {
+    height: 50px;
+    width: 50px;
+    margin-top: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.footer {
+    color: #808080;
+    text-align: center;
+}
