@@ -18,6 +18,12 @@
    .image {
       outline: auto;
       justify-content: center;
+      height: 300px;
+      width: 300px;
+   }
+   .image:hover {
+      height: 400px;
+      width: 400px;
    }
    
 }
