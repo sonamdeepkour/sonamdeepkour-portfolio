@@ -150,7 +150,6 @@ a:hover {
     display: flex;
     justify-content: center;
     gap: 2rem ;
-    outline: auto;
 }
 .image {
     height: 500px;
@@ -350,20 +349,20 @@ section {
     height: 50px;
     width: 50px;
 }
-#Acheivements {
+#acheivement {
     /*height: 1300px;*/
     height: fit-content;
     display: flex;
     justify-content: center;
 }
-.achBlock {
+.achblock {
     outline: auto #cccccc;
-    height: 1200px;
-    width: fit-content;
-    padding: 50px;
+    height: fit-content;
+    width: 1000px;
+    padding: 10px;
     /*margin-left: 120px;*/
 }
-.achBlock p {
+.achblock p {
     text-align: center;
     margin-bottom: 50px;
     font-weight: bolder;
@@ -371,7 +370,7 @@ section {
 }
 .achrow1 {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     padding: 20px;
 }
 
@@ -409,7 +408,7 @@ section {
     font-size: medium;
     padding: 10px;
 }
-.achBlock a {
+.achblock a {
     color: #848884;
     font-size: medium;
     text-decoration: underline;
@@ -433,6 +432,7 @@ section {
     height: 300px;
     width: 400px;
     text-align: center;
+    justify-content: center;
 }
 .Last p {
     color: #848884;
@@ -449,7 +449,7 @@ section {
     border-radius: 2rem;
     height: 70px;
     width: 350px;
-    margin-left:  80px;
+    margin-left:  30px;
     display: flex;
     justify-content: center;
 }
